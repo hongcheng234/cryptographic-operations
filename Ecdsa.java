@@ -9,7 +9,6 @@ import java.security.spec.X509EncodedKeySpec;
  * 
  * 速度快 强度高 签名短
  * 
- * 实现方 JDK1.7/BC
  */
 public class Ecdsa {
 	 private static final String SIGNALGORITHMS = "SHA256withECDSA";
@@ -64,7 +63,6 @@ public class Ecdsa {
     }
  
    /**
-    * 从string转private key
     * @param key 私钥的字符串
     * @return
     * @throws Exception
@@ -76,7 +74,6 @@ public class Ecdsa {
     }
  
     /**
-     * 从string转publicKey
      * @param key 公钥的字符串
      * @return
      * @throws Exception
