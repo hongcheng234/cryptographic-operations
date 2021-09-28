@@ -1,5 +1,17 @@
 # cryptographic-operations
-# Paillier
+#Elliptic Curve Cryptography
+##This repository contains a set of tools and scripts useful to learn the basics about Elliptic Curve Cryptography.
+##They were created for the series for the series of posts entitled  http://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction/
+
+
+#Billinear Pairing
+
+
+#Hash Function
+
+
+
+# Paillier Encryption Algorithm
   Paillier encryption algorithm has semantic security, that is, given plaintext m1, m2, there is no polynomial timen algorithm to distinguish E(m1),E(m2).
   
 ## The properties of the Paillier cryptosystem are shown below:
@@ -17,5 +29,5 @@ make the equation gcd(L(g^lambda mod N^2), N) = 1 true.
 
 ###Decryption:
    The plaintext m is decrypted by calculating the equation D(c) = L(c^lambda mod N^2)/ L(g^lambda mod N^2) mod N.
-   
+
    
