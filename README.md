@@ -3,14 +3,6 @@
 ##This repository contains a set of tools and scripts useful to learn the basics about Elliptic Curve Cryptography.
 ##They were created for the series for the series of posts entitled  http://andrea.corbellini.name/2015/05/17/elliptic-curve-cryptography-a-gentle-introduction/
 
-
-#Billinear Pairing
-
-
-#Hash Function
-
-
-
 # Paillier Encryption Algorithm
   Paillier encryption algorithm has semantic security, that is, given plaintext m1, m2, there is no polynomial timen algorithm to distinguish E(m1),E(m2).
   
