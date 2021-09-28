@@ -7,15 +7,15 @@
 2) Decrypting the plaintext power of a ciphertext obtains the product of two corresponding plaintexts.
 
 ## Algorithm description
-###Public/private keys generation
+###Public/private keys generation:
 Given two large primes p, q and obtain their product n=pq and lambda=lcm(p-1, q-1). Then, to select the random number g and 
 make the equation gcd(L(g^lambda mod N^2), N) = 1 true.
 
 
-###Encryption
+###Encryption:
    A message m is encrypted as ciphertext c=E(m mod N, r mod N) = g^m * r^N mod N^2.
 
-###Decryption
+###Decryption:
    The plaintext m is decrypted by calculating the equation D(c) = L(c^lambda mod N^2)/ L(g^lambda mod N^2) mod N.
    
    
